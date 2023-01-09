@@ -25,7 +25,7 @@ public class BlockList {
     private final long timeToRemove;
     private final boolean dropInventory;
     private final boolean dropNaturally;
-    private final SLParticle sbrParticle;
+    private final SLParticle particle;
     private final String sound;
     private final float volume;
     private final String displayName;
@@ -65,9 +65,9 @@ public class BlockList {
         Color color = Color.fromRGB(red, green, blue);
 
         if (!name.isEmpty()) {
-            sbrParticle = new SLParticle(name, speed, count, color);
+            particle = new SLParticle(name, speed, count, color);
         } else {
-            sbrParticle = new SLParticle();
+            particle = new SLParticle();
         }
 
         sound = (String) map.get("sound");

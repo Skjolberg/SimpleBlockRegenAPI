@@ -29,7 +29,7 @@ Maven:
     <dependency>
         <groupId>com.github.Skjolberg</groupId>
         <artifactId>SimpleBlockRegenAPI</artifactId>
-        <version>0.0.1</version>
+        <version>0.1.1</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
@@ -40,7 +40,7 @@ repositories {
     maven { url 'https://jitpack.io' }
 }
 dependencies {
-    compileOnly "com.github.Skjolberg:SimpleBlockRegenAPI:0.0.1"
+    compileOnly "com.github.Skjolberg:SimpleBlockRegenAPI:0.1.1"
 }
 ```
 Gradle (kotlin):
@@ -49,7 +49,7 @@ repositories {
     maven("https://jitpack.io")
 }
 dependencies {
-    compileOnly("com.github.Skjolberg:SimpleBlockRegenAPI:0.0.1")
+    compileOnly("com.github.Skjolberg:SimpleBlockRegenAPI:0.1.1")
 }
 ```
 

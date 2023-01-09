@@ -1,6 +1,8 @@
 package net.shibacraft.simpleblockregen.plugin.blocklist;
 
 import lombok.Getter;
+import net.shibacraft.library.chat.SLTextColor;
+import net.shibacraft.library.effects.SLParticle;
 import net.shibacraft.simpleblockregen.plugin.regeneration.RegenerationMode;
 import org.bukkit.Color;
 import org.bukkit.enchantments.Enchantment;

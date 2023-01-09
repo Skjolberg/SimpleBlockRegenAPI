@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/Skjolberg/SimpleBlockRegenAPI.svg)](https://jitpack.io/#Skjolberg/SimpleBlockRegenAPI)
 # SimpleBlockRegenAPI
 
 An intuitive API to support SimpleBlockRegen Premium

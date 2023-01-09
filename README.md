@@ -1,5 +1,4 @@
-[![](https://jitpack.io/v/Skjolberg/SimpleBlockRegenAPI.svg)](https://jitpack.io/#Skjolberg/SimpleBlockRegenAPI)
-# SimpleBlockRegenAPI
+# SimpleBlockRegenAPI [![](https://jitpack.io/v/Skjolberg/SimpleBlockRegenAPI.svg)](https://jitpack.io/#Skjolberg/SimpleBlockRegenAPI) [![Discord](https://img.shields.io/discord/955564646708961442?label=Discord)](https://discord.gg/pKZb4nYy97)
 
 An intuitive API to support SimpleBlockRegen Premium
 
@@ -15,8 +14,6 @@ An intuitive API to support SimpleBlockRegen Premium
 
 - [Discord](https://discord.gg/pKZb4nYy97)
 - [Wiki](https://github.com/Skjolberg/SimpleBlockRegen/wiki)
-
-[![Discord](https://img.shields.io/discord/955564646708961442?label=Discord)](https://discord.gg/pKZb4nYy97)
 
 ## How to include the API:
 Maven:

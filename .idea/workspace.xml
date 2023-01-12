@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="update README.md">
+    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="documentation only and rename some methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/region/RegionManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/region/RegionManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/blocklist/BlockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/blocklist/BlockList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/RegionMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/RegionMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673304541908</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="documentation only and rename some methods">
+      <created>1673543791063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673543791063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +205,7 @@
     <MESSAGE value="fix import" />
     <MESSAGE value="minor update" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="documentation only and rename some methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="documentation only and rename some methods" />
   </component>
 </project>

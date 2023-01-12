@@ -4,7 +4,6 @@ An intuitive API to support SimpleBlockRegen Premium
 
 ## Prerequisites
 - Java 8
-- Minecraft version: 1.8 - 1.19
 
 ## Downloads
 - [Spigot](https://www.spigotmc.org/resources/simpleblockregen-premium-%E2%9C%85-create-automatic-regeneration-regions-%E2%9B%8F%EF%B8%8F.103286/)
@@ -13,7 +12,7 @@ An intuitive API to support SimpleBlockRegen Premium
 ## Links
 
 - [Discord](https://discord.gg/pKZb4nYy97)
-- [Wiki](https://github.com/Skjolberg/SimpleBlockRegen/wiki)
+- [Wiki](https://github.com/Skjolberg/SimpleBlockRegen/wiki/Using-the-API)
 
 ## How to include the API:
 Maven:

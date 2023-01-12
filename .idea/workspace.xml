@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="update README.md" />
+    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="update README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/region/RegionManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/region/RegionManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/blocklist/BlockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/blocklist/BlockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/RegionMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/region/RegionMode.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +84,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel/IdeaProjects/SimpleBlockRegenAPI&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SimpleBlockRegenAPI [shadowJar]">
+  <component name="RunManager" selected="Gradle.SimpleBlockRegenAPI [clean]">
     <configuration name="SimpleBlockRegenAPI [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SimpleBlockRegenAPI [shadowJar]" />
         <item itemvalue="Gradle.SimpleBlockRegenAPI [clean]" />
+        <item itemvalue="Gradle.SimpleBlockRegenAPI [shadowJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673302656507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update README.md">
+      <created>1673304541908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673304541908</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -44,7 +44,6 @@ public class BlockList {
 
     @SuppressWarnings("unchecked")
     public BlockList(Map<String, Object> map) {
-
         blockMinedName = (String) map.get("block-mined-name");
         mode = (RegenerationMode) map.get("mode");
         replaceBlock = (String) map.get("replace-block");

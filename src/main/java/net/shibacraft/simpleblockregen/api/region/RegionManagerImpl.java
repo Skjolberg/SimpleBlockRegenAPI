@@ -29,7 +29,7 @@ public interface RegionManagerImpl {
      * @param location  Location
      * @return          name region or null if not exists
      */
-    String getNameRegion(Location location);
+    String getRegionName(Location location);
 
     /**
      * Returns a region in the verified location in case there are
@@ -59,6 +59,6 @@ public interface RegionManagerImpl {
      *
      * @return lists of {@link Region} or empty list
      */
-    List<Region> getAllRegionObject();
+    List<Region> getAllRegion();
 
 }

@@ -1,14 +1,10 @@
 package net.shibacraft.simpleblockregen.plugin.region;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
 import org.bukkit.Location;
 
 import java.util.List;
 
-@Getter
-@Setter
 @AllArgsConstructor
 public class Region {
 
@@ -26,4 +22,66 @@ public class Region {
                 && loc.getY() <= max.getY() && loc.getY() >= min.getY();
     }
 
+    /**
+     * Gets the name of the region
+     *
+     * @return  region name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Gets location of the lowest corner in the region
+     *
+     * @return  {@link Location}
+     */
+    public Location getMin() {
+        return min;
+    }
+
+    /**
+     * Gets location of the highest corner in the region
+     *
+     * @return  {@link Location}
+     */
+    public Location getMax() {
+        return max;
+    }
+
+    /**
+     * Returns the mode of the region;
+     *
+     * @return  {@link RegionMode}
+     */
+    public RegionMode getMode() {
+        return mode;
+    }
+
+    /**
+     * Sets the region mode
+     *
+     * @param mode  {@link RegionMode}
+     */
+    public void setMode(RegionMode mode) {
+        this.mode = mode;
+    }
+
+    /**
+     * Gets the names of the allowed/denied blocks in the region
+     *
+     * @return  {@link List<String>} of block names
+     */
+    public List<String> getBlocks() {
+        return blocks;
+    }
+
+    /**
+     * Sets the names of the allowed/denied blocks in the region
+     *
+     * @param blocks    {@link List<String>} of block names
+     */
+    public void setBlocks(List<String> blocks) {
+        this.blocks = blocks;
+    }
 }

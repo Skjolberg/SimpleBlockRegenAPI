@@ -2,10 +2,10 @@
 
 An intuitive API to support SimpleBlockRegen Premium
 
-## Prerequisites
+## Compiled
 - Java 8
 
-## Downloads
+## Plugin
 - [Spigot](https://www.spigotmc.org/resources/simpleblockregen-premium-%E2%9C%85-create-automatic-regeneration-regions-%E2%9B%8F%EF%B8%8F.103286/)
 - [DevBuilds](https://discord.gg/pHFYxRUkAP)
 

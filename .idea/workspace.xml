@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="bump to 0.1.3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/regeneration/RegenerationManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/regeneration/RegenerationManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/region/RegionManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/api/region/RegionManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/blocklist/BlockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/blocklist/BlockList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/regeneration/Regeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/regeneration/Regeneration.java" afterDir="false" />
+    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="added firstTopMaterial in Regeneration.java">
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676653985587</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added firstTopMaterial in Regeneration.java">
+      <created>1677181085179</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677181085179</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +252,7 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="added material on top of the regeneration to the object" />
     <MESSAGE value="bump to 0.1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="bump to 0.1.3" />
+    <MESSAGE value="added firstTopMaterial in Regeneration.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added firstTopMaterial in Regeneration.java" />
   </component>
 </project>

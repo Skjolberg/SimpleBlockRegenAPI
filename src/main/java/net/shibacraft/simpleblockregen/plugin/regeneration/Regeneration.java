@@ -2,6 +2,7 @@ package net.shibacraft.simpleblockregen.plugin.regeneration;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import net.shibacraft.simpleblockregen.plugin.blocklist.BlockList;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -9,6 +10,7 @@ import org.bukkit.block.BlockState;
 
 @Getter
 @Setter
+@ToString
 public class Regeneration {
 
     private BlockList blockList;

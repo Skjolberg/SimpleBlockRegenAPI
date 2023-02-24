@@ -28,11 +28,13 @@ public class Regeneration {
     private Material firstMaterial;
     private Material firstTopMaterial;
     private Material currentTopMaterial;
+    private Material previousTopMaterial;
 
     public Regeneration(BlockList blockList, BlockState blockState, Material material, Location locCurrently,
                         Location locGenerate, long regenerationTime, long timeToRemove, BlockState replaceBlockState,
                         Material replaceMaterial, RegenerationMode mode, boolean removable, Location firstLocation,
-                        Material firstMaterial, Material firstTopMaterial, Material currentTopMaterial) {
+                        Material firstMaterial, Material firstTopMaterial, Material currentTopMaterial,
+                        Material previousTopMaterial) {
         this.blockList = blockList;
         this.blockState = blockState;
         this.material = material;
@@ -48,15 +50,16 @@ public class Regeneration {
         this.firstMaterial = firstMaterial;
         this.firstTopMaterial = firstTopMaterial;
         this.currentTopMaterial = currentTopMaterial;
+        this.previousTopMaterial = previousTopMaterial;
     }
 
     public Regeneration(BlockList blockList, BlockState blockState, BlockState replaceBlockState, long regenerationTime,
                         Location locGenerate, Location locCurrently, String replaceBlock, long timeToRemove,
                         RegenerationMode mode, boolean removable, Material type, Material firstTopMaterial,
-                        Material currentTopMaterial) {
+                        Material currentTopMaterial, Material previousTopMaterial) {
         this(blockList,blockState, blockState.getBlock().getType(), locCurrently, locGenerate,  regenerationTime,
                 timeToRemove, replaceBlockState,  Material.valueOf(replaceBlock), mode, removable,
-                blockState.getLocation(), type, firstTopMaterial, currentTopMaterial);
+                blockState.getLocation(), type, firstTopMaterial, currentTopMaterial, previousTopMaterial);
     }
 
 }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="bump to 0.1.4" />
+    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="bump to 0.1.5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/regeneration/Regeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/regeneration/Regeneration.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,13 +76,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel/IdeaProjects/SimpleBlockRegenAPI&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Daniel/IdeaProjects/SimpleBlockRegenAPI"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.SimpleBlockRegenAPI [clean]">
     <configuration name="SimpleBlockRegenAPI [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -244,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677181122513</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="@ToString to Regeneration.java">
+      <created>1677195189804</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677195189804</updated>
+    </task>
+    <task id="LOCAL-00017" summary="bump to 0.1.5">
+      <created>1677195211801</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677195211801</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +276,8 @@
     <MESSAGE value="bump to 0.1.3" />
     <MESSAGE value="added firstTopMaterial in Regeneration.java" />
     <MESSAGE value="bump to 0.1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="bump to 0.1.4" />
+    <MESSAGE value="@ToString to Regeneration.java" />
+    <MESSAGE value="bump to 0.1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="bump to 0.1.5" />
   </component>
 </project>

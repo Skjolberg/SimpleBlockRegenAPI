@@ -23,6 +23,7 @@ public class BlockList {
     private final String permission;
     private final long delay;
     private final long timeToRemove;
+    private final boolean glow;
     private final boolean dropInventory;
     private final boolean dropNaturally;
     private final SLParticle particle;
@@ -52,6 +53,7 @@ public class BlockList {
         delay = (long) map.get("delay");
         timeToRemove = (long) map.get("timeToRemove");
 
+        glow = (boolean) map.get("glow");
         dropInventory = (boolean) map.get("drop-inventory");
         dropNaturally = (boolean) map.get("drop-naturally");
 

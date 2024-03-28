@@ -1,8 +1,8 @@
 package net.shibacraft.simpleblockregen.plugin.blocklist;
 
 import lombok.Getter;
-import net.shibacraft.library.chat.SLTextColor;
-import net.shibacraft.library.effects.SLParticle;
+import me.davamu.retina.chat.TextColorUtil;
+import me.davamu.retina.effects.RetinaParticle;
 import net.shibacraft.simpleblockregen.plugin.regeneration.RegenerationMode;
 import org.bukkit.Color;
 import org.bukkit.enchantments.Enchantment;
@@ -26,7 +26,7 @@ public class BlockList {
     private final boolean glow;
     private final boolean dropInventory;
     private final boolean dropNaturally;
-    private final SLParticle particle;
+    private final RetinaParticle retinaParticle;
     private final String sound;
     private final float volume;
     private final String displayName;
@@ -66,15 +66,15 @@ public class BlockList {
         Color color = Color.fromRGB(red, green, blue);
 
         if (!name.isEmpty()) {
-            particle = new SLParticle(name, speed, count, color);
+            retinaParticle = new RetinaParticle(name, speed, count, color);
         } else {
-            particle = new SLParticle();
+            retinaParticle = new RetinaParticle();
         }
 
         sound = (String) map.get("sound");
         volume = (float) map.get("volume");
-        displayName = SLTextColor.color((String) map.get("display-name"));
-        lore = ((List<String>) map.get("lore")).stream().map(SLTextColor::color).collect(Collectors.toList());
+        displayName = TextColorUtil.color((String) map.get("display-name"));
+        lore = ((List<String>) map.get("lore")).stream().map(TextColorUtil::color).collect(Collectors.toList());
         reward = (String) map.get("reward");
         min = (int) map.get("min");
         max = (int) map.get("max");

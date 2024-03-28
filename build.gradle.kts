@@ -75,7 +75,7 @@ repositories {
 
 dependencies {
     compileOnly(libs.spigot16)
-    implementation(libs.shibacraftLibrary)
+    implementation(libs.retinaLibrary)
     compileOnly(libs.lombok)
     annotationProcessor(libs.lombok)
 }

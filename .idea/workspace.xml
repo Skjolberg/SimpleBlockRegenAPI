@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="bump to 0.1.5">
+    <list default="true" id="c2f42154-892d-49d5-a6b4-8cb187ec946e" name="Changes" comment="bump to 0.1.7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/regeneration/Regeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simpleblockregen/plugin/regeneration/Regeneration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,23 +29,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="SimpleBlockRegenAPI" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimpleBlockRegenAPI" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimpleBlockRegenAPI" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimpleBlockRegenAPI" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -80,7 +62,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Daniel/IdeaProjects/SimpleBlockRegenAPI"
+    "last_opened_file_path": "C:/Users/Daniel/IdeaProjects/SimpleBlockRegen"
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.SimpleBlockRegenAPI [clean]">
@@ -103,6 +85,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="SimpleBlockRegenAPI [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -124,6 +107,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -261,7 +245,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677195211801</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="previous top material">
+      <created>1677278684018</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677278684018</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bump to 0.1.6">
+      <created>1677278706269</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677278706269</updated>
+    </task>
+    <task id="LOCAL-00020" summary="bump to 0.1.7">
+      <created>1703635034766</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703635034766</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +283,9 @@
     <MESSAGE value="bump to 0.1.4" />
     <MESSAGE value="@ToString to Regeneration.java" />
     <MESSAGE value="bump to 0.1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="bump to 0.1.5" />
+    <MESSAGE value="previous top material" />
+    <MESSAGE value="bump to 0.1.6" />
+    <MESSAGE value="bump to 0.1.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="bump to 0.1.7" />
   </component>
 </project>
